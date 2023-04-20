@@ -1,3 +1,6 @@
+## Announcement
+I will not continue this project because baileys is no longer updated. However, if you want a pull request, I will accept it. See you on the next project
+
 <p align="center">
 <img src="https://telegra.ph/file/5bd80998f8262a0a5e64f.jpg" alt="Ichigo Kurosaki" width="500"/>
 
