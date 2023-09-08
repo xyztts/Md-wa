@@ -129,10 +129,10 @@ if (m.isGroup && db.data.group[m.chat].antiviewone) {
     if (m.isGroup && m.mtype == 'viewOnceMessage' && m.msg.viewOnce) {
     let teks = `「 *Anti ViewOnce Message* 」
     
-    🤠 *Name* : ${pushname}
-    👾 *User* : @${m.sender.split("@")[0]}
-    ⏰ *Clock* : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')} WIB
-    💫 *MessageType* : ${m.mtype}`
+    *Name* : ${pushname}
+    *User* : @${m.sender.split("@")[0]}
+    *Clock* : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')} WIB
+    *MessageType* : ${m.mtype}`
     reply(teks)
     await sleep(500)
     m.copyNForward(m.chat, true, {
@@ -254,7 +254,7 @@ case 'menu': case 'help': case '?': {
   {urlButton: {displayText: 'Website 🔗',url: 'Coming Soon'}}, 
   {"quickReplyButton": {"displayText": "Donasi ","id": `donasi`},},
   {"quickReplyButton": {"displayText": "Owner ","id": "owner"},},
-  {"quickReplyButton": {"displayText": "Status Bot ⌚","id": `ping`}}
+  {"quickReplyButton": {"displayText": "Status Bot","id": `ping`}}
   ]
   ichi.sendButtonImg(m.chat, menu, global.ownerName, global.thumb, but, global.thumb)
   }
