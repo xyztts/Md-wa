@@ -11,7 +11,7 @@ const chalk = require('chalk')
 //Ubah Disini
 global.ownerNumber = ['6281995401793','0']
 global.ownerName = 'FahriXD'
-global.packname = 'FahriXD'
+global.packname = 'Xdry'
 global.author = 'Whatsapp Bot MD'
 global.prefa = ['','!','.','#','!'] //Ilangin Prefix Yang '' Kalau Gamau No Prefix
 global.sessionName = 'sesi'
