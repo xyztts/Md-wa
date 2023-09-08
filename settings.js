@@ -9,22 +9,22 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //Ubah Disini
-global.ownerNumber = ['6281540022632','6287877173955','0']
-global.ownerName = 'Whatsapp Developer'
-global.packname = 'Ichigo Kurosaki'
-global.author = 'Whatsapp Bot 2022'
+global.ownerNumber = ['6281995401793','0']
+global.ownerName = 'FahriXD'
+global.packname = 'FahriXD'
+global.author = 'Whatsapp Bot MD'
 global.prefa = ['','!','.','#','!'] //Ilangin Prefix Yang '' Kalau Gamau No Prefix
 global.sessionName = 'sesi'
 
 //Message Nya Ubah Disini
 global.mess = {
-admin: 'You Are Not Admin!',
+admin: 'Kamu Syipaaa!',
 botAdmin: 'Bot Not Admin!',
-botOwner: 'You Are Not My Owner!',
-group: 'Only Group!',
-private: 'Only Private Chat',
-wait: 'Loading...',
-done: 'Done!'
+botOwner: 'Lu Bukan Syapa Syapa Gw!',
+group: 'Coman Bisa Di Grup!',
+private: 'Harus PM',
+wait: 'Bentar...',
+done: 'Done Ga Bang!'
 }
 
 
